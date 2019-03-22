@@ -1,0 +1,19 @@
+{
+    "name": "mac/test4",
+    "authors": [
+        {
+            "name": "brady",
+            "email": "brady.wang@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "helpers/helper.php"
+        ],
+        "psr-4":{
+            "Brady\\":"library/"
+        },
+        "classmap":["map/","map1/","Wang.php"]
+    }
+}
